@@ -1,0 +1,23 @@
+*{margin: 0; padding: 0;}
+html, body{height: 100%; width: 100%; color: #333; font-family: "Cairo", sans-serif;}
+body, section{background: linear-gradient(0deg,rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/background.jpg) no-repeat center center ; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+p{font-size: 12px;}
+a{text-decoration: none;}
+
+.uk-input{border: 1px solid #999;border-radius: .25rem;}
+div.uk-margin{margin-bottom: 5px;}
+div.uk-modal-dialog div.uk-inline{width: 100%;}
+.uk-navbar-nav>li>a{color: #FFF;}
+.uk-navbar-nav>li>a:focus, .uk-navbar-nav>li>a:hover{color: #ED1C24;}
+.uk-card-body{padding-bottom: 5px;}
+.uk-checkbox{border: 1px solid #999;}
+.uk-table th, .uk-table td{color: #333; text-align: center; font-family: "Cairo", sans-serif;}
+.uk-table th{letter-spacing: 1px; font-weight: bold;}
+.uk-table-hover tbody tr:hover, .uk-table-hover>tr:hover{background: rgba(9, 67, 148, 0.2);}
+
+#preloader{overflow: hidden; background-color: #FFFFFF; position: fixed; top: 0; bottom: 0; left: 0; right: 0; z-index: 9999;}
+#status{background-image: url("../images/preloader.gif"); background-repeat: no-repeat; width: 100px; height: 100px; position: absolute; left: 50%; top: 50%; margin-top: -50px; margin-left: -50px;}
+
+.uk-navbar-nav>li>a.active{color: #ED1C24;}
+
+label{letter-spacing: 2px; color: #333; font-weight: 600; font-size: 15px; font-family: "Cairo", sans-serif;}
